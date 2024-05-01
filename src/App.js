@@ -1,4 +1,3 @@
-// TaskForm.js
 
 import React, { Component } from 'react';
 import './App.css';
@@ -23,9 +22,7 @@ class TaskForm extends Component {
       this.setState({ error: 'All fields are required' });
       return;
     }
-    // Add logic to submit the task
-    // this.props.onSubmit({ taskName, description, dueDate });
-    // Update tasks list
+  
     const newTask = {
       taskName,
       description,
